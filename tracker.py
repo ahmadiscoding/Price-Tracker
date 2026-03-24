@@ -61,6 +61,7 @@ def get_amazon_price(page, url):
         return f"Error: {e}"
 
 
+
 def save_to_excel(name, url, price):
     """Save result to Excel with product name column."""
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
