@@ -1,5 +1,3 @@
-import re
-import json
 import openpyxl
 from datetime import datetime
 import os
